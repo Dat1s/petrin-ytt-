@@ -4,14 +4,14 @@
 }
 
 .worker {
-    display: flex;
-    margin-bottom: 20px;
+    display: block; /* Change display to block */
+    margin-bottom: 20px; /* Add margin bottom to create space between workers */
 }
 
 .worker img {
-    width: 500px; /* Adjust image width as needed */
+    width: 250px; /* Adjust image width as needed */
     height: auto;
-    margin-right: 20px;
+    margin-bottom: 10px; /* Add margin bottom to create space between image and text */
 }
 
 .worker-info {
