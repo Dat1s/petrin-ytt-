@@ -33,6 +33,7 @@ header nav {
     flex-direction: column; /* Arrange items vertically */
     align-items: center; /* Center items horizontally */
     width: 100%; /* Full width */
+    height: 137px; /* Set height to 137px */
     box-sizing: border-box; /* Include padding and border in width */
 }
 
