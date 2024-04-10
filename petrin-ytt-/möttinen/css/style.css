@@ -25,13 +25,22 @@ header nav {
     background-color: rgba(57, 93, 119, 0.9); /* Background color in RGBA format with 90% opacity */
     font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Font family */
     font-size: 25px; /* Font size */
-    margin-right: 20px; /* Right margin */
+    margin: 0; /* Remove default margin */
     padding: 20px; /* Padding */
     text-decoration: none; /* Remove underline */
     color: white; /* Text color */
     display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+header nav .nav-links {
+    display: flex;
     gap: 20px;
 }
+
 
 header nav a {
     text-decoration: none; /* Remove underline */
