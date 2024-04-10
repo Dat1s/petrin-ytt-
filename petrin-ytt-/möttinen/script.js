@@ -1,7 +1,16 @@
-$(document).ready(function(){
-    $("#header-container").load("header/header.html", function() {
-        // Callback function to apply styles after content is loaded
-        $("#header-container").find("link[href='style.css']").remove(); // Remove duplicate stylesheet link
-        $("head").append('<link rel="stylesheet" href="style.css">'); // Add stylesheet link to header.html content
-    });
+document.addEventListener("DOMContentLoaded", function() {
+    fetch("header/header.html")
+    .then(response => response.text())
+    .then(data => {
+        document.getElementById("header-container").innerHTML = data;
+        applyStyles();
+    })
+    .catch(error => console.error("Error loading header:", error));
+
+    function applyStyles() {
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = "css/style.css";
+        document.head.appendChild(link);
+    }
 });
