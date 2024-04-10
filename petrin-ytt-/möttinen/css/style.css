@@ -5,6 +5,7 @@ header {
     height: 400px; /* Header height */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
+    background-image: url('img/header.jpg'); /* Path to your image */
 }
 
 /* Updated Company name */
@@ -84,6 +85,16 @@ h2 {
     margin: 0 auto; /* Center the container */
     width: 80%; /* Minimum width */
 }
+
+.header-bottom-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1; /* This ensures the image stays behind other content */
+}
+
+
 
 /* Footer styles */
 footer {

@@ -15,3 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
         document.head.appendChild(link);
     }
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    var header = document.querySelector("header");
+    header.style.backgroundImage = "url('img/header.jpg')";
+});
+
