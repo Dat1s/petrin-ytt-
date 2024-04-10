@@ -127,3 +127,6 @@ footer a {
     box-sizing: border-box;
     text-align: center;
 }
+.empty-row {
+    height: 50px; /* Adjust height as needed */
+}
