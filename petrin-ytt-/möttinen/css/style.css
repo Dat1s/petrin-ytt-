@@ -1,4 +1,4 @@
-/* Header styles */
+/* Updated Header styles */
 header {
     background-color: #b0d1d8; /* Background color */
     height: 400px; /* Header height */
@@ -6,8 +6,14 @@ header {
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
 
-/* Link bar inside header */
-header a {
+/* Updated Company name */
+header h1 {
+    font-size: 36px; /* Font size */
+    margin-bottom: 20px; /* Spacing */
+}
+
+/* Updated Link bar inside header */
+header nav {
     background-color: rgba(57, 93, 119, 0.9); /* Background color in RGBA format with 90% opacity */
     font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Font family */
     font-size: 25px; /* Font size */
@@ -17,9 +23,16 @@ header a {
     color: white; /* Text color */
 }
 
-header a:hover {
+header nav a {
+    margin-right: 20px; /* Right margin */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+}
+
+header nav a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
 
 /* Body text styles */
 body {
