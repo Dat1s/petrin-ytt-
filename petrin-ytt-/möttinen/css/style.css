@@ -1,11 +1,11 @@
 /* Updated Header styles */
 header {
+    position: relative;
     background-color: #b0d1d8; /* Background color */
     height: 400px; /* Header height */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
 }
-
 
 /* Updated Company name */
 header h1 {
@@ -23,11 +23,12 @@ header h1 {
 
 /* Updated Link bar inside header */
 header nav {
+    position: relative;
     background-color: rgba(57, 93, 119, 0.9); /* Background color in RGBA format with 90% opacity */
     font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Font family */
     font-size: 25px; /* Font size */
     margin: 0; /* Remove default margin */
-    padding: 10px 20px; /* Adjusted padding */
+    padding: 20px; /* Adjusted padding */
     text-decoration: none; /* Remove underline */
     color: white; /* Text color */
     display: flex;
@@ -43,6 +44,7 @@ header nav .nav-links {
     display: flex;
     gap: 20px; /* Adjusted gap between links */
     margin-bottom: 30px;
+    padding: 20px;
 }
 
 header nav .nav-links a {
