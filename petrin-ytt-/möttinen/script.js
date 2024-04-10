@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     .then(response => response.text())
     .then(data => {
         document.getElementById("header-container").innerHTML = data;
+        console.log("Header content loaded successfully!");  // Check if this log appears in the console
         applyStyles();
     })
     .catch(error => console.error("Error loading header:", error));

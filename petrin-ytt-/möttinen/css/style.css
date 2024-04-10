@@ -12,6 +12,14 @@ header h1 {
     margin-bottom: 20px; /* Spacing */
 }
 
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Set height to 100% to center content vertically */
+}
+
 /* Updated Link bar inside header */
 header nav {
     background-color: rgba(57, 93, 119, 0.9); /* Background color in RGBA format with 90% opacity */
@@ -21,16 +29,13 @@ header nav {
     padding: 20px; /* Padding */
     text-decoration: none; /* Remove underline */
     color: white; /* Text color */
+    display: flex;
+    gap: 20px;
 }
 
 header nav a {
-    margin-right: 20px; /* Right margin */
     text-decoration: none; /* Remove underline */
     color: white; /* Text color */
-}
-
-header nav a:hover {
-    text-decoration: underline; /* Underline on hover */
 }
 
 
