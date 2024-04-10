@@ -94,19 +94,33 @@ h2 {
     z-index: -1; /* This ensures the image stays behind other content */
 }
 
+/* Ensure the body takes up the full viewport height */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
 
+/* Main content container */
+main {
+    flex: 1; /* This will push the footer to the bottom */
+}
 
 /* Footer styles */
 footer {
-    background-color: white; /* Background color */
+    background-color: #333; /* Dark background color */
+    color: white; /* Text color */
     height: 50px; /* Footer height */
     padding: 20px 0; /* Top and bottom padding */
+    text-align: center; /* Center align text */
 }
 
 /* Footer links */
 footer a {
-    color: black; /* Text color */
+    color: white; /* Link text color */
     text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Margin around links */
 }
 
 /* Email link */
