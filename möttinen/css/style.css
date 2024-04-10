@@ -1,0 +1,68 @@
+/* Header styles */
+header {
+    background-color: #b0d1d8; /* Background color */
+    height: 400px; /* Header height */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+/* Link bar inside header */
+header a {
+    background-color: rgba(57, 93, 119, 0.9); /* Background color in RGBA format with 90% opacity */
+    font-family: 'Trebuchet MS', Helvetica, sans-serif; /* Font family */
+    font-size: 25px; /* Font size */
+    margin-right: 20px; /* Right margin */
+    padding: 20px; /* Padding */
+    text-decoration: none; /* Remove underline */
+    color: white; /* Text color */
+}
+
+header a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Body text styles */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    padding: 20px; /* Padding */
+}
+
+h1 {
+    font-size: 36px; /* H1 font size */
+}
+
+h2 {
+    font-size: 24px; /* H2 font size */
+}
+
+.container {
+    max-width: 1200px; /* Maximum width */
+    margin: 0 auto; /* Center the container */
+    width: 80%; /* Minimum width */
+}
+
+/* Footer styles */
+footer {
+    background-color: white; /* Background color */
+    height: 50px; /* Footer height */
+    padding: 20px 0; /* Top and bottom padding */
+}
+
+/* Footer links */
+footer a {
+    color: black; /* Text color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Email link */
+.mail-link:before {
+    content: "\2709\0020"; /* Unicode character for email icon */
+    margin-right: 10px; /* Spacing */
+}
+
+/* Phone link */
+.tel-link:before {
+    content: "\260E\0020"; /* Unicode character for phone icon */
+    margin-right: 10px; /* Spacing */
+}
